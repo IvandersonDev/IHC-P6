@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Completa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <input type="text" id="num1" placeholder="Digite o primeiro número">
+            <select id="operacao">
+                <option value="adicao">+</option>
+                <option value="subtracao">-</option>
+                <option value="multiplicacao">*</option>
+                <option value="divisao">/</option>
+                <option value="numeroPar">É par?</option>
+                <option value="somaIntervalo">Soma Intervalo</option>
+                <option value="fatorial">Fatorial</option>
+                <option value="contarVogais">Contar Vogais</option>
+            </select>
+            <input type="text" id="num2" placeholder="Digite o segundo número ou texto">
+        </div>
+
+        <div class="button-container">
+            <button class="num-btn" value="7">7</button>
+            <button class="num-btn" value="8">8</button>
+            <button class="num-btn" value="9">9</button>
+            <button class="num-btn" value="4">4</button>
+            <button class="num-btn" value="5">5</button>
+            <button class="num-btn" value="6">6</button>
+            <button class="num-btn" value="1">1</button>
+            <button class="num-btn" value="2">2</button>
+            <button class="num-btn" value="3">3</button>
+            <button class="num-btn" value="+/-">+/-</button>
+            <button class="num-btn" value="0">0</button>
+            <button class="num-btn" value=",">,</button>
+        </div>
+
+        <button id="confirm-btn">CONFIRMAR</button>
+        <div class="result-container">
+            <p>RESULTADO: <span id="result"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
