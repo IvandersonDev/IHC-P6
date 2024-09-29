@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recomendador de Atividades para Bem-estar</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center">Recomendador de Atividades para Bem-estar</h1>
+
+    <div class="form-group">
+      <label>Como você está se sentindo? (Selecione mais de um, se aplicável)</label>
+      <select multiple class="form-control" id="mood">
+        <option value="estressado">Estressado</option>
+        <option value="ansioso">Ansioso</option>
+        <option value="triste">Triste</option>
+        <option value="cansado">Cansado</option>
+        <option value="entediado">Entediado</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="duration">Duração da Atividade</label>
+      <select class="form-control" id="duration">
+        <option value="curta">Curta (5-15 minutos)</option>
+        <option value="media">Média (15-30 minutos)</option>
+        <option value="longa">Longa (30+ minutos)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="intensity">Intensidade</label>
+      <select class="form-control" id="intensity">
+        <option value="baixa">Baixa</option>
+        <option value="media">Média</option>
+        <option value="alta">Alta</option>
+      </select>
+    </div>
+
+    <button class="btn btn-primary" onclick="fetchActivities()">Buscar Atividades</button>
+
+    <h2 class="mt-4">Atividades Recomendadas:</h2>
+    <ul id="activity-list" class="list-group"></ul>
+
+    <h2 class="mt-4">Suas Atividades Favoritas:</h2>
+    <ul id="favorite-list" class="list-group"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

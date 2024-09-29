@@ -1,0 +1,27 @@
+{
+  "activities": [
+    { "id": 1, "name": "Meditação Guiada", "mood": ["estressado", "ansioso"], "description": "Faça uma meditação guiada de 10 minutos para aliviar a tensão e acalmar a mente.", "duration": "curta", "intensity": "baixa" },
+    { "id": 2, "name": "Caminhada ao Ar Livre", "mood": ["triste", "cansado"], "description": "Saia para uma caminhada leve por 20 minutos e sinta o ar fresco para melhorar seu humor.", "duration": "media", "intensity": "media" },
+    { "id": 3, "name": "Leitura de um Livro", "mood": ["entediado", "triste"], "description": "Leia um livro ou artigo de seu interesse por 30 minutos para relaxar e estimular sua mente.", "duration": "longa", "intensity": "baixa" },
+    { "id": 4, "name": "Exercício de Respiração", "mood": ["ansioso", "cansado"], "description": "Faça 5 minutos de respiração profunda para reduzir a ansiedade e melhorar seu foco.", "duration": "curta", "intensity": "baixa" },
+    { "id": 5, "name": "Alongamento Suave", "mood": ["cansado", "estressado"], "description": "Realize alongamentos suaves por 10 minutos para liberar tensão acumulada no corpo.", "duration": "curta", "intensity": "baixa" },
+    { "id": 6, "name": "Corrida Leve", "mood": ["triste", "cansado"], "description": "Corra por 15 minutos em um ritmo leve para estimular a produção de endorfinas e melhorar seu humor.", "duration": "media", "intensity": "media" },
+    { "id": 7, "name": "Cuidado com o Jardim", "mood": ["entediado", "triste"], "description": "Cuide de suas plantas por 30 minutos. Conectar-se à natureza é uma ótima maneira de reduzir o estresse.", "duration": "longa", "intensity": "media" },
+    { "id": 8, "name": "Prática de Ioga", "mood": ["estressado", "ansioso", "cansado"], "description": "Faça uma sessão de ioga suave por 20 minutos para relaxar corpo e mente.", "duration": "media", "intensity": "baixa" },
+    { "id": 9, "name": "Escutar Música", "mood": ["triste", "entediado"], "description": "Ouça suas músicas favoritas por 15 minutos para melhorar seu humor e relaxar.", "duration": "curta", "intensity": "baixa" },
+    { "id": 10, "name": "Desenhar ou Pintar", "mood": ["entediado", "ansioso"], "description": "Use 30 minutos para desenhar ou pintar, expressando suas emoções criativamente.", "duration": "longa", "intensity": "baixa" },
+    { "id": 11, "name": "Treino Funcional de Alta Intensidade", "mood": ["cansado", "estressado"], "description": "Realize um treino funcional de alta intensidade por 20 minutos para liberar energia acumulada.", "duration": "media", "intensity": "alta" },
+    { "id": 12, "name": "Cozinhar uma Receita Nova", "mood": ["entediado", "triste"], "description": "Experimente cozinhar uma receita diferente por 45 minutos para se distrair e relaxar.", "duration": "longa", "intensity": "media" },
+    { "id": 13, "name": "Escrever em um Diário", "mood": ["ansioso", "triste"], "description": "Escreva sobre seus sentimentos por 15 minutos para processar suas emoções e aliviar o peso emocional.", "duration": "curta", "intensity": "baixa" },
+    { "id": 14, "name": "Treinamento Funcional", "mood": ["cansado", "estressado"], "description": "Faça um treino funcional de 30 minutos para fortalecer o corpo e aliviar o estresse.", "duration": "media", "intensity": "alta" },
+    { "id": 15, "name": "Passeio na Natureza", "mood": ["triste", "estressado"], "description": "Dê um passeio de 20 minutos em um parque para se reconectar com a natureza e acalmar a mente.", "duration": "media", "intensity": "baixa" },
+    { "id": 16, "name": "Organização do Ambiente", "mood": ["entediado", "cansado"], "description": "Organize seu espaço por 25 minutos. Um ambiente limpo ajuda a clarear a mente.", "duration": "media", "intensity": "media" },
+    { "id": 17, "name": "Assistir a um Filme ou Série", "mood": ["entediado", "triste"], "description": "Assista a um filme ou série por 60 minutos para se distrair e relaxar sua mente.", "duration": "longa", "intensity": "baixa" },
+    { "id": 18, "name": "Conversa com um Amigo", "mood": ["triste", "ansioso"], "description": "Converse com um amigo por 20 minutos para aliviar a carga emocional e se sentir mais conectado.", "duration": "media", "intensity": "baixa" },
+    { "id": 19, "name": "Jogo de Tabuleiro ou Digital", "mood": ["entediado"], "description": "Jogue um jogo de tabuleiro ou digital por 30 minutos para se divertir e interagir socialmente.", "duration": "media", "intensity": "media" },
+    { "id": 20, "name": "Mergulho na Piscina", "mood": ["cansado", "triste"], "description": "Mergulhe na piscina por 30 minutos para relaxar seu corpo e melhorar seu estado de espírito.", "duration": "longa", "intensity": "media" },
+    { "id": 21, "name": "Sessão de Alongamento", "mood": ["estressado", "cansado"], "description": "Faça uma sessão de alongamento de 15 minutos para relaxar os músculos e aliviar a tensão corporal.", "duration": "curta", "intensity": "baixa" },
+    { "id": 22, "name": "Exercício de Alta Intensidade", "mood": ["estressado", "ansioso"], "description": "Faça uma sessão intensa de exercício físico por 15 minutos para liberar endorfinas e reduzir o estresse.", "duration": "curta", "intensity": "alta" },
+    { "id": 23, "name": "Dança", "mood": ["entediado", "triste"], "description": "Dance por 20 minutos ao som de suas músicas favoritas. A dança ajuda a melhorar o humor e o bem-estar físico.", "duration": "media", "intensity": "media" }
+  ]
+}
